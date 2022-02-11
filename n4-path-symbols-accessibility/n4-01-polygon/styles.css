@@ -3,3 +3,9 @@
 - des jointures de ligne arrondies ;
 - un remplissage de couleur #008B6F
 */
+
+path{
+    stroke-width: 2px;
+    stroke-linejoin: round;
+    fill: #008B6F;
+}

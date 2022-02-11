@@ -12,3 +12,33 @@
 }
 
 /* reprenez ici votre feuille de style de l'exercie 06-logo-svg-groups, nous allons la compéter */
+circle{
+    transform-origin: center;
+    fill: none;
+    stroke-width: 7px;
+    stroke: #008B6F;
+}
+
+line{
+    stroke: black;
+    stroke-width: 5px;
+    stroke-linecap: round; /*arrondi les bouts de ligne*/
+}
+text{
+    font-size: 60px;
+    text-anchor: middle;
+    stroke: #00392D;
+    stroke-width: 3px;
+    fill: #F6F7F3;
+}
+
+polygon{
+    stroke: #00392D;
+    stroke-width: 2px;
+    fill: #008B6F;
+    stroke-linejoin: round; /*arrondi les jointures*/
+}
+
+.triangle_group{
+    stroke-width: 1px;
+}

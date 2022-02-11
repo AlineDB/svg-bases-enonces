@@ -5,3 +5,21 @@
 	- à la moitié du temps, il a la moitité de sa taille ;
 	- à la fin, il revient à sa taille normale
 */
+
+circle{
+    animation: mymove 5s infinite;
+    transform-origin: 40px 105px;
+}
+
+@keyframes mymove {
+    50% {transform: scale(0.6);}
+}
+
+g{
+    animation: mymove2 5s infinite;
+    transform-origin: center;
+}
+
+@keyframes mymove2 {
+    50% {transform: rotate(360deg);}
+}

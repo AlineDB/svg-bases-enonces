@@ -4,3 +4,30 @@
 	2. Dimensionnez le téléphone du haut à 10% de la taille de son parent
 	3. Dimensionnez le téléphone du bas à 30% de la taille de son parent 
  */
+
+circle{
+   /* animation: mymove 5s infinite;*/
+    transform-origin: 40px 105px;
+}
+/*
+@keyframes mymove {
+    50% {transform: scale(0.6);}
+}*/
+
+g{
+  /*  animation: mymove2 5s infinite;*/
+    transform-origin: center;
+}
+/*
+@keyframes mymove2 {
+    50% {transform: rotate(360deg);}
+}*/
+
+.displayed-icon{
+    height: auto;
+    width: 30%;
+}
+.top-displayed-icon{
+    height: auto;
+    width: 10%;
+}

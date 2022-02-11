@@ -14,3 +14,29 @@
 Stylez les petits triangles :
 - ils doivent tous avoir un contour de 1px d'épaisseur et un remplissage de couleur #59BFC6
 */
+circle{
+    transform-origin: center;
+    fill: none;
+    stroke-width: 7px;
+    stroke: #008B6F;
+}
+
+line{
+    stroke: black;
+    stroke-width: 5px;
+    stroke-linecap: round; /*arrondi les bouts de ligne*/
+}
+text{
+    font-size: 60px;
+    text-anchor: middle;
+    stroke: #00392D;
+    stroke-width: 3px;
+    fill: #F6F7F3;
+}
+
+polygon{
+    stroke: #00392D;
+    stroke-width: 2px;
+    fill: #008B6F;
+    stroke-linejoin: round; /*arrondi les jointures*/
+}

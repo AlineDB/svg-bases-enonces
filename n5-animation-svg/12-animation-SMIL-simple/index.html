@@ -37,6 +37,13 @@ SOURCE : Page de démonstration du tutoriel
 		<h1>Un rectangle animé en SMIL avec l’élément &lt;animate&gt;</h1>
 		<div id="wrap">
 			<!-- Créer un rectangle de 300 px de large et 50 px de haut et l'animer avec l'élément animate pour qu'il apparaisse progressivement (il va d'une largeur de 0 à une largeur de 300 en 5 secondes) -->
+			<svg viewBox="0 0 350 100" version="1.1" xmlns="http://www.w3.org/2000/svg">>
+				<rect width="300" height="50" fill="white">
+					<animate attributeName="x" attributeType="XML" from="300" to="0" dur="5s" repeatCount="indefinite"></animate>
+				</rect>
+			</svg>
+
+
 		</div>
 	</body>
 </html>
